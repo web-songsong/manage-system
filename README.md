@@ -1,4 +1,4 @@
-# d
+# my-project-name
 
 ## Project setup
 ```
