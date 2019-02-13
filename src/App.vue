@@ -7,15 +7,15 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import Song from "@/components/Song.vue";
+import { Component, Vue, Prop } from "vue-property-decorator";
 
-export default Vue.extend({
-  name: "app",
+import Song from "@/components/Song.vue";
+@Component({
   components: {
     Song
   }
-});
+})
+export default class App extends Vue {}
 </script>
 
 <style>

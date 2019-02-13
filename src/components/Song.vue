@@ -1,5 +1,7 @@
 <template>
-  <div>{{msg}}</div>
+  <div>{{msg}}
+    <svt-button />
+  </div>
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";

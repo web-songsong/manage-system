@@ -3643,6 +3643,10 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
+lib-flexible@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/lib-flexible/-/lib-flexible-0.3.2.tgz#06f5a74832314a2d35c12039bc9c3ca2daeaa426"
+
 loader-runner@^2.3.0, loader-runner@^2.3.1:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
@@ -5402,6 +5406,15 @@ sockjs@0.3.19:
     faye-websocket "^0.10.0"
     uuid "^3.0.1"
 
+song-vue-template@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/song-vue-template/-/song-vue-template-0.2.0.tgz#66c64c7c3e268888826c578cca3a9887b5f94ef6"
+  dependencies:
+    lib-flexible "^0.3.2"
+    url-loader "^1.1.2"
+    vue "^2.5.17"
+    vue-router "^3.0.1"
+
 source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
@@ -6094,6 +6107,10 @@ vue-property-decorator@^7.3.0:
   dependencies:
     vue-class-component "^6.2.0"
 
+vue-router@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.2.tgz#dedc67afe6c4e2bc25682c8b1c2a8c0d7c7e56be"
+
 vue-style-loader@^4.1.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"
@@ -6112,7 +6129,7 @@ vue-template-es2015-compiler@^1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
 
-vue@^2.5.22:
+vue@^2.5.17, vue@^2.5.22:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
 
