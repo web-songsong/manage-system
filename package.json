@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service --open serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
@@ -19,7 +19,7 @@
     "@vue/cli-plugin-typescript": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "postcss-px2rem": "^0.3.0",
-    "song-vue-template": "^0.2.5",
+    "song-vue-template": "^0.2.10",
     "style-resources-loader": "^1.2.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
