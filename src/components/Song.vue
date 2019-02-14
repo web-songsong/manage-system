@@ -1,5 +1,6 @@
 <template>
-  <div>{{msg}}
+  <div>
+    {{msg}}
     <svt-button />
   </div>
 </template>
