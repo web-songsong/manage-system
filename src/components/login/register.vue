@@ -23,27 +23,14 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-interface LoginInfo {
-  name: string;
-  password: string;
-}
 @Component
 export default class login_register extends Vue {
   nameText: string = "";
   passText: string = "";
-  verify(info: LoginInfo): boolean {
-    const { name, password } = info;
-    if (name === "song" && password === "song") return !0;
-    return !1;
-  }
   login() {
-    if (this.verify({ name: this.nameText, password: this.passText }))
+    if (this.$utils.test({ name: this.nameText, password: this.passText })) {
       this.$router.push("home");
-  }
-  created() {
-    console.log("=======");
-    console.log(this.$utils);
-    console.log("=======");
+    }
   }
 }
 </script>
