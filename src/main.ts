@@ -19,7 +19,7 @@ router.beforeEach((to, from, next) => {
   if (to.path === '/') {
     return next()
   }
-  window.sessionStorage.getItem('login_state') ? next() : next('/')
+  window.localStorage.getItem('login_state') ? next() : next('/')
 })
 
 new Vue({

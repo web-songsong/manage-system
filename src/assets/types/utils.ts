@@ -6,7 +6,7 @@ interface LoginInfo {
 const test = (info: LoginInfo): boolean => {
   const { name, password } = info
   if (name === 'song' && password === 'song') {
-    window.sessionStorage.setItem('login_state', JSON.stringify(true))
+    window.localStorage.setItem('login_state', JSON.stringify(true))
     return !0
   }
   return !1
