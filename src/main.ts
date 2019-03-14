@@ -1,25 +1,25 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
+import 'lib-flexible/flexible.js'
+import Svt from 'song-vue-template'
+import 'song-vue-template/dist/css/svt.css'
+
+import utils from '../src/assets/types/utils'
 
 Vue.config.productionTip = false
 
-import Svt from 'song-vue-template'
-import 'song-vue-template/dist/svt.css'
-
-import 'lib-flexible/flexible.js'
-import utils from '../src/assets/types/utils'
-
-import router from './router'
-
 Vue.use(Svt)
-
 Vue.use(utils)
+
 router.beforeEach((to, from, next) => {
   // if (window.sessionStorage.getItem('login_state')) next()
   if (to.path === '/') {
     return next()
   }
-  window.localStorage.getItem('login_state') ? next() : next('/')
+  /* 登录检测 */
+  // window.localStorage.getItem('login_state') ? next() : next('/')
+  next()
 })
 
 new Vue({
