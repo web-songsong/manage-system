@@ -18,7 +18,6 @@
       <svt-button text="登录"
                   @click.native="login" />
     </div>
-
   </div>
 </template>
 <script lang="ts">
