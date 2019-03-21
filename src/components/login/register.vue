@@ -15,20 +15,19 @@
                  placeholder="Password..."
                  @keyup.native.enter="login" />
 
-      <svt-button text="登录"
-                  @click.native="login" />
+      <svt-button @click.native="login">登录</svt-button>
     </div>
   </div>
 </template>
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator'
 @Component
 export default class login_register extends Vue {
-  nameText: string = "";
-  passText: string = "";
+  nameText: string = ''
+  passText: string = ''
   login() {
     if (this.$utils.test({ name: this.nameText, password: this.passText })) {
-      this.$router.push("home");
+      this.$router.push('home')
     }
   }
 }

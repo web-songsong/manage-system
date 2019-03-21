@@ -4,9 +4,7 @@ import router from './router'
 import 'lib-flexible/flexible.js'
 import Svt from 'song-vue-template'
 import 'song-vue-template/dist/css/svt.css'
-
 import utils from '../src/assets/types/utils'
-
 Vue.config.productionTip = false
 
 Vue.use(Svt)
