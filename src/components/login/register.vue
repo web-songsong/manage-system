@@ -15,7 +15,8 @@
                  placeholder="Password..."
                  @keyup.native.enter="login" />
 
-      <svt-button @click.native="login">登录</svt-button>
+      <svt-button type="primary"
+                  @click="login">登录</svt-button>
     </div>
   </div>
 </template>

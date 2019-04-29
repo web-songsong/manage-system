@@ -17,7 +17,7 @@
     "@vue/cli-plugin-typescript": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "postcss-px2rem": "^0.3.0",
-    "song-vue-template": "^1.2.10",
+    "song-vue-template": "^1.2.11",
     "style-resources-loader": "^1.2.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
